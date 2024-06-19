@@ -63,7 +63,7 @@ Figure 1: Combined figure showing original high-resolution RGB image from Gilber
 
 The cooling intensity (CI) is modeled as a function of the local surface temperature (x), the size of the urban forest (S), and the distance from the forest (d):
 
-![Cooling Intensity Equation](https://i.imgur.com/RuPSUeB.png)
+![Cooling Intensity Equation](Images/equation.png)
 
 This equation approximates the cooling effect within the urban forest and how it decays with increasing distance from the forest's edge.
 
@@ -91,6 +91,14 @@ This equation approximates the cooling effect within the urban forest and how it
 - **Model Performance**: The complex U-Net variant achieved an IoU of 84.6%, and the simpler version achieved 79.7% for the 'vacant' class.
 - **Practical Application**: On average, 92% of vacant lands were correctly identified across the cities of Mesa, Phoenix, and Paradise Valley.
 - **Impact on UHI Mitigation**: The algorithm-based approach resulted in a 53% higher cooling effect and impacted 43% more people compared to random allocation of urban forests.
+
+<div align="center">
+  <img src="https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/figure_5.png" alt="U-Net Prediction and Post-Processed Images" width="600">
+
+  <p style="text-align: center;">
+    Figure 5: U-Net Prediction and Post-Processed Images.
+  </p>
+</div>
 
 ## Future Aspects
 
