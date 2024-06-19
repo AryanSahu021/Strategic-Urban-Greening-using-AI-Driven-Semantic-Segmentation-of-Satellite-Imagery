@@ -1,10 +1,9 @@
 # Addressing UHI Effects in Arizona through Strategic Urban Greening using AI-Driven Semantic Segmentation of Satellite Imagery
-<div style="text-align: center;">
+
+## End To End Pipeline
+<div align=center>
     <img src="Images/workflow.png" alt="Cooling Intensity Equation" width="400">
 </div>
-
-
-
 
 ## Introduction
 
@@ -31,17 +30,34 @@ Our approach combines advanced image processing techniques with environmental sc
 
 ### Data Collection
 
+<div align="center">
+
+![Combined figure showing original high-resolution RGB image from Gilbert city (left) and annotated image showing vacant and occupied areas (right).](https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/figure1_rgb.png "Figure 1: RGB Image") ![Combined figure showing original high-resolution RGB image from Gilbert city (left) and annotated image showing vacant and occupied areas (right).](https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/figure1_mask.png "Figure 1: Mask Image")
+
+Figure 1: Combined figure showing original high-resolution RGB image from Gilbert city (left) and annotated image showing vacant and occupied areas (right).
+
+</div>
+
 - **High-resolution Imagery Data**: 1m resolution RGB imagery from the National Agriculture Imagery Program (NAIP), accessed via Google Earth Engine.
 - **Land Surface Temperature Data**: Thermal band (ST B10) data from Landsat 9 satellite, with a resolution of 10 meters per pixel.
 - **Population Density Data**: 100m resolution data from the WorldPop Global Project Population Data.
 
 ### Vacant Land Identification
 
+
 - **Dataset**: 500 patches derived from manually annotated 1m resolution NAIP satellite imagery from Gilbert city, classified as 'vacant' or 'occupied'.
 - **Model Architecture**: U-Net with contracting path for context capture and symmetric expanding path for precise localization, includes skip connections for effective feature propagation.
 - **Model Variants**: U-Net1 with ~50,000 parameters and U-Net2 with ~4 million parameters.
 - **Data Augmentation**: Rotations, width and height shifts, and horizontal and vertical flips for improved generalizability.
 - **Evaluation Metric**: Intersection over Union (IoU) for the 'vacant' class.
+
+<div align="center">
+  <img src="https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/figure_2.png" alt="Figure 2" width="800">
+
+  <p style="text-align: center;">
+    Figure 2: Patches of 256×256×3 and corresponding masks of 256×256 were derived from the manually annotated image for model training
+  </p>
+</div>
 
 ### Cooling Intensity Model
 
