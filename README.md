@@ -1,6 +1,8 @@
 # Addressing UHI Effects in Arizona through Strategic Urban Greening using AI-Driven Semantic Segmentation of Satellite Imagery
+<div style="text-align: center;">
+    <img src="Images/workflow.png" alt="Cooling Intensity Equation" width="400">
+</div>
 
-![Cooling Intensity Equation](Images/workflow.png){: width="40"}
 
 
 
