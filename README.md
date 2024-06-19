@@ -88,6 +88,10 @@ This equation approximates the cooling effect within the urban forest and how it
 
 ## Results
 
+<div align="center">
+  <img src="https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/Table.png" alt="Table 1: Model performance metrics in practical application across different cities." width="800">
+</div>
+
 - **Model Performance**: The complex U-Net variant achieved an IoU of 84.6%, and the simpler version achieved 79.7% for the 'vacant' class.
 - **Practical Application**: On average, 92% of vacant lands were correctly identified across the cities of Mesa, Phoenix, and Paradise Valley.
 - **Impact on UHI Mitigation**: The algorithm-based approach resulted in a 53% higher cooling effect and impacted 43% more people compared to random allocation of urban forests.
