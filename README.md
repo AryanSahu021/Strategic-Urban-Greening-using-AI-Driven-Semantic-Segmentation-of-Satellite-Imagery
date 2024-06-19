@@ -30,7 +30,7 @@ Our approach combines advanced image processing techniques with environmental sc
 
 ### Data Collection
 
-<div align="center">
+<div align="center", width=400>
 
 ![Combined figure showing original high-resolution RGB image from Gilbert city (left) and annotated image showing vacant and occupied areas (right).](https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/figure1_rgb.png "Figure 1: RGB Image") ![Combined figure showing original high-resolution RGB image from Gilbert city (left) and annotated image showing vacant and occupied areas (right).](https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/figure1_mask.png "Figure 1: Mask Image")
 
