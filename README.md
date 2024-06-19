@@ -67,6 +67,15 @@ The cooling intensity (CI) is modeled as a function of the local surface tempera
 
 This equation approximates the cooling effect within the urban forest and how it decays with increasing distance from the forest's edge.
 
+<div align="center">
+  <img src="https://github.com/BhoumikPatidar/Strategic-Urban-Greening-using-AI-Driven-Semantic-Segmentation-of-Satellite-Imagery/raw/main/Images/figure_3.png" alt="Figure 3" width="600">
+
+  <p style="text-align: center;">
+    Figure 3: Overlay of temperature data on the satellite imagery.
+  </p>
+</div>
+
+
 ### Site Selection Algorithm
 
 - **Input**: Land cover, heat, and population density maps.
